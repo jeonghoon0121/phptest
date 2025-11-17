@@ -1,0 +1,46 @@
+[Mon Nov 17 11:26:59.094566 2025] [ssl:warn] [pid 22332:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:26:59.142690 2025] [ssl:warn] [pid 22332:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:26:59.222065 2025] [mpm_winnt:notice] [pid 22332:tid 584] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Nov 17 11:26:59.222065 2025] [mpm_winnt:notice] [pid 22332:tid 584] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Nov 17 11:26:59.222065 2025] [core:notice] [pid 22332:tid 584] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 17 11:26:59.237947 2025] [mpm_winnt:notice] [pid 22332:tid 584] AH00418: Parent: Created child process 4324
+[Mon Nov 17 11:26:59.840929 2025] [ssl:warn] [pid 4324:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:26:59.874187 2025] [ssl:warn] [pid 4324:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:26:59.951215 2025] [mpm_winnt:notice] [pid 4324:tid 588] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 17 11:29:54.531514 2025] [ssl:warn] [pid 24048:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:29:54.578388 2025] [ssl:warn] [pid 24048:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:29:54.597574 2025] [mpm_winnt:notice] [pid 24048:tid 620] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Nov 17 11:29:54.597574 2025] [mpm_winnt:notice] [pid 24048:tid 620] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Nov 17 11:29:54.597574 2025] [core:notice] [pid 24048:tid 620] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 17 11:29:54.611543 2025] [mpm_winnt:notice] [pid 24048:tid 620] AH00418: Parent: Created child process 1896
+[Mon Nov 17 11:29:54.951735 2025] [ssl:warn] [pid 1896:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:29:54.980227 2025] [ssl:warn] [pid 1896:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 11:29:55.007410 2025] [mpm_winnt:notice] [pid 1896:tid 600] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 17 11:41:07.254595 2025] [php:warn] [pid 1896:tid 2072] [client ::1:57462] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\1_ok.php on line 3
+[Mon Nov 17 11:41:07.254595 2025] [php:warn] [pid 1896:tid 2072] [client ::1:57462] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\1_ok.php on line 4
+[Mon Nov 17 11:57:43.239635 2025] [php:warn] [pid 1896:tid 2084] [client ::1:58565] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\1_ok.php on line 3
+[Mon Nov 17 11:57:43.239635 2025] [php:warn] [pid 1896:tid 2084] [client ::1:58565] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\1_ok.php on line 4
+[Mon Nov 17 12:16:43.832586 2025] [php:warn] [pid 1896:tid 2072] [client ::1:57843] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\2_ok.php on line 3
+[Mon Nov 17 12:16:43.832586 2025] [php:warn] [pid 1896:tid 2072] [client ::1:57843] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\2_ok.php on line 4
+[Mon Nov 17 12:16:54.242507 2025] [php:error] [pid 1896:tid 2084] [client ::1:60247] script 'C:/xampp/htdocs/2.php' not found or unable to stat
+[Mon Nov 17 12:19:14.191081 2025] [php:warn] [pid 1896:tid 2084] [client ::1:57204] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\2_ok.php on line 3, referer: http://localhost/2.html
+[Mon Nov 17 12:19:14.191081 2025] [php:warn] [pid 1896:tid 2084] [client ::1:57204] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\2_ok.php on line 4, referer: http://localhost/2.html
+[Mon Nov 17 12:19:23.700449 2025] [php:warn] [pid 1896:tid 2072] [client ::1:49872] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\2_ok.php on line 3, referer: http://localhost/2.html
+[Mon Nov 17 12:19:23.700449 2025] [php:warn] [pid 1896:tid 2072] [client ::1:49872] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\2_ok.php on line 4, referer: http://localhost/2.html
+[Mon Nov 17 12:19:45.867728 2025] [php:warn] [pid 1896:tid 2084] [client ::1:57120] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\2_ok.php on line 3, referer: http://localhost/2.html
+[Mon Nov 17 12:19:45.867728 2025] [php:warn] [pid 1896:tid 2084] [client ::1:57120] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\2_ok.php on line 4, referer: http://localhost/2.html
+[Mon Nov 17 12:24:47.110896 2025] [php:warn] [pid 1896:tid 2072] [client ::1:50092] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\2_ok.php on line 3, referer: http://localhost/2.html
+[Mon Nov 17 12:24:47.110896 2025] [php:warn] [pid 1896:tid 2072] [client ::1:50092] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\2_ok.php on line 4, referer: http://localhost/2.html
+[Mon Nov 17 12:26:07.191787 2025] [php:warn] [pid 1896:tid 2084] [client ::1:54900] PHP Warning:  Undefined array key "a" in C:\\xampp\\htdocs\\2_ok.php on line 3, referer: http://localhost/2.html
+[Mon Nov 17 12:26:07.191787 2025] [php:warn] [pid 1896:tid 2084] [client ::1:54900] PHP Warning:  Undefined array key "b" in C:\\xampp\\htdocs\\2_ok.php on line 4, referer: http://localhost/2.html
+[Mon Nov 17 12:28:33.504070 2025] [ssl:warn] [pid 18992:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 12:28:33.557636 2025] [core:warn] [pid 18992:tid 592] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 17 12:28:33.559991 2025] [ssl:warn] [pid 18992:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 12:28:33.588426 2025] [mpm_winnt:notice] [pid 18992:tid 592] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Nov 17 12:28:33.588426 2025] [mpm_winnt:notice] [pid 18992:tid 592] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Nov 17 12:28:33.588426 2025] [core:notice] [pid 18992:tid 592] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 17 12:28:33.594470 2025] [mpm_winnt:notice] [pid 18992:tid 592] AH00418: Parent: Created child process 5640
+[Mon Nov 17 12:28:33.854125 2025] [ssl:warn] [pid 5640:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 12:28:33.880759 2025] [ssl:warn] [pid 5640:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 17 12:28:33.912291 2025] [mpm_winnt:notice] [pid 5640:tid 572] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 17 12:36:09.645462 2025] [php:error] [pid 5640:tid 2096] [client ::1:54901] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\\xampp\\htdocs\\3_ok.php:7\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\3_ok.php on line 7, referer: http://localhost/3.html
